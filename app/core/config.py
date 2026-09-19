@@ -10,6 +10,10 @@ class Settings(BaseSettings):
 
     openai_api_key: str | None = None
     openai_model: str | None = None
+    open_meteo_geocoding_url: str = (
+    "https://geocoding-api.open-meteo.com/v1/search"
+)
+    external_api_timeout_seconds: float = 10.0
 
     model_config = SettingsConfigDict(
         env_file=".env",
