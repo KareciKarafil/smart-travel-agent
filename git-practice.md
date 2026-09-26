@@ -7,3 +7,5 @@ I created this file to practise Git.
 - Clone a repository
 - View commit history
 - Create and switch to a branch
+- Create, push, review, and merge a pull request
+
